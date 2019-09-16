@@ -1,7 +1,13 @@
 {
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fliperro/PHP-Foundation-Core"
+        }
+    ],
 	"require": {
 		"php": ">=5.6.0",
-		"delight-im/foundation-core": "^4.10"
+		"delight-im/foundation-core": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
