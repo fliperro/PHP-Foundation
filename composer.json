@@ -7,7 +7,7 @@
     ],
 	"require": {
 		"php": ">=5.6.0",
-		"delight-im/foundation-core": "dev-master"
+		"delight-im/foundation-core": "dev-parse"
 	},
 	"autoload": {
 		"psr-4": {

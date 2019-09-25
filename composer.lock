@@ -1,93 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b110ae5634cbbd62d41b6d43b1a3dd2a",
+    "content-hash": "5506e4b89fcc2f28046dee3cf2af27eb",
     "packages": [
-        {
-            "name": "delight-im/auth",
-            "version": "v8.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/delight-im/PHP-Auth.git",
-                "reference": "4cd6360fc7edbbff72c9199b4f4ce3548b659232"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/delight-im/PHP-Auth/zipball/4cd6360fc7edbbff72c9199b4f4ce3548b659232",
-                "reference": "4cd6360fc7edbbff72c9199b4f4ce3548b659232",
-                "shasum": ""
-            },
-            "require": {
-                "delight-im/base64": "^1.0",
-                "delight-im/cookie": "^3.1",
-                "delight-im/db": "^1.3",
-                "ext-openssl": "*",
-                "php": ">=5.6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Delight\\Auth\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Authentication for PHP. Simple, lightweight and secure.",
-            "homepage": "https://github.com/delight-im/PHP-Auth",
-            "keywords": [
-                "Authentication",
-                "auth",
-                "login",
-                "security"
-            ],
-            "time": "2018-08-28T21:51:30+00:00"
-        },
-        {
-            "name": "delight-im/base64",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/delight-im/PHP-Base64.git",
-                "reference": "687b2a49f663e162030a8d27b32838bbe7f91c78"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/delight-im/PHP-Base64/zipball/687b2a49f663e162030a8d27b32838bbe7f91c78",
-                "reference": "687b2a49f663e162030a8d27b32838bbe7f91c78",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Delight\\Base64\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Simple and convenient Base64 encoding and decoding for PHP",
-            "homepage": "https://github.com/delight-im/PHP-Base64",
-            "keywords": [
-                "URL-safe",
-                "base-64",
-                "base64",
-                "decode",
-                "decoding",
-                "encode",
-                "encoding",
-                "url"
-            ],
-            "time": "2017-07-24T18:59:51+00:00"
-        },
         {
             "name": "delight-im/cookie",
             "version": "v3.1.2",
@@ -130,47 +48,6 @@
             "time": "2018-10-11T17:27:45+00:00"
         },
         {
-            "name": "delight-im/db",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/delight-im/PHP-DB.git",
-                "reference": "7a03da20b5592fa445c10cd6c7245d51037292c4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/delight-im/PHP-DB/zipball/7a03da20b5592fa445c10cd6c7245d51037292c4",
-                "reference": "7a03da20b5592fa445c10cd6c7245d51037292c4",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pdo": "*",
-                "php": ">=5.6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Delight\\Db\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Safe and convenient SQL database access in a driver-agnostic way",
-            "homepage": "https://github.com/delight-im/PHP-DB",
-            "keywords": [
-                "database",
-                "mysql",
-                "pdo",
-                "pgsql",
-                "postgresql",
-                "sql",
-                "sqlite"
-            ],
-            "time": "2018-08-28T18:23:01+00:00"
-        },
-        {
             "name": "delight-im/file-upload",
             "version": "v1.2.0",
             "source": {
@@ -211,22 +88,20 @@
         },
         {
             "name": "delight-im/foundation-core",
-            "version": "v4.10.0",
+            "version": "dev-parse",
             "source": {
                 "type": "git",
-                "url": "https://github.com/delight-im/PHP-Foundation-Core.git",
-                "reference": "c3161ae12de987e8d3ed2c818086df0ac0268567"
+                "url": "https://github.com/fliperro/PHP-Foundation-Core.git",
+                "reference": "3e46a1640aa4f33f4619e5917c223fb0a896e0a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delight-im/PHP-Foundation-Core/zipball/c3161ae12de987e8d3ed2c818086df0ac0268567",
-                "reference": "c3161ae12de987e8d3ed2c818086df0ac0268567",
+                "url": "https://api.github.com/repos/fliperro/PHP-Foundation-Core/zipball/3e46a1640aa4f33f4619e5917c223fb0a896e0a4",
+                "reference": "3e46a1640aa4f33f4619e5917c223fb0a896e0a4",
                 "shasum": ""
             },
             "require": {
-                "delight-im/auth": "^7.6 || ^8.0",
                 "delight-im/cookie": "^3.1",
-                "delight-im/db": "^1.2",
                 "delight-im/file-upload": "^1.2",
                 "delight-im/i18n": "^1.0",
                 "delight-im/ids": "^1.0",
@@ -234,6 +109,7 @@
                 "delight-im/str": "^2.4",
                 "ext-mbstring": "*",
                 "filp/whoops": "^2.1",
+                "parse/php-sdk": "1.4.*",
                 "php": ">=5.6.0",
                 "swiftmailer/swiftmailer": "^5.4",
                 "twig/twig": "^1.35",
@@ -245,7 +121,6 @@
                     "Delight\\Foundation\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -255,7 +130,10 @@
                 "bootstrap",
                 "framework"
             ],
-            "time": "2019-06-25T23:22:24+00:00"
+            "support": {
+                "source": "https://github.com/fliperro/PHP-Foundation-Core/tree/parse"
+            },
+            "time": "2019-09-25T08:26:33+00:00"
         },
         {
             "name": "delight-im/http",
@@ -295,16 +173,16 @@
         },
         {
             "name": "delight-im/i18n",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delight-im/PHP-I18N.git",
-                "reference": "ca1aea7df1be4170dada77b77e2482cd3f75a94b"
+                "reference": "cc50010bc6df3dbcd39a72d41683b4bc67cd35a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delight-im/PHP-I18N/zipball/ca1aea7df1be4170dada77b77e2482cd3f75a94b",
-                "reference": "ca1aea7df1be4170dada77b77e2482cd3f75a94b",
+                "url": "https://api.github.com/repos/delight-im/PHP-I18N/zipball/cc50010bc6df3dbcd39a72d41683b4bc67cd35a4",
+                "reference": "cc50010bc6df3dbcd39a72d41683b4bc67cd35a4",
                 "shasum": ""
             },
             "require": {
@@ -335,7 +213,7 @@
                 "localization",
                 "translation"
             ],
-            "time": "2019-06-10T17:46:02+00:00"
+            "time": "2019-06-14T18:54:26+00:00"
         },
         {
             "name": "delight-im/ids",
@@ -460,16 +338,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.1.14",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6"
+                "reference": "cde50e6720a39fdacb240159d3eea6865d51fd96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
-                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/cde50e6720a39fdacb240159d3eea6865d51fd96",
+                "reference": "cde50e6720a39fdacb240159d3eea6865d51fd96",
                 "shasum": ""
             },
             "require": {
@@ -477,9 +355,9 @@
                 "psr/log": "^1.0.1"
             },
             "require-dev": {
-                "mockery/mockery": "0.9.*",
+                "mockery/mockery": "^0.9 || ^1.0",
                 "phpunit/phpunit": "^4.8.35 || ^5.7",
-                "symfony/var-dumper": "^2.6 || ^3.0"
+                "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0"
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -488,7 +366,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -517,7 +395,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2017-11-23T18:22:44+00:00"
+            "time": "2019-08-07T09:00:00+00:00"
         },
         {
             "name": "jenssegers/optimus",
@@ -577,17 +455,66 @@
             "time": "2017-04-21T10:14:58+00:00"
         },
         {
-            "name": "psr/log",
-            "version": "1.0.2",
+            "name": "parse/php-sdk",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "url": "https://github.com/parse-community/parse-php-sdk.git",
+                "reference": "19deeb473a33d9cc15271ef78f7520d95fa792ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/parse-community/parse-php-sdk/zipball/19deeb473a33d9cc15271ef78f7520d95fa792ba",
+                "reference": "19deeb473a33d9cc15271ef78f7520d95fa792ba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jms/serializer": "1.7.1",
+                "phpdocumentor/phpdocumentor": "~2.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "^3.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Parse\\": "src/Parse/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Parse Platform License"
+            ],
+            "authors": [
+                {
+                    "name": "Parse",
+                    "homepage": "https://github.com/parse-community/parse-php-sdk/graphs/contributors"
+                }
+            ],
+            "description": "Parse PHP SDK",
+            "homepage": "https://github.com/parse-community/parse-php-sdk",
+            "keywords": [
+                "parse",
+                "sdk"
+            ],
+            "time": "2017-12-06T03:42:42+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
@@ -621,7 +548,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2018-11-20T15:27:04+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -678,31 +605,90 @@
             "time": "2018-07-31T09:26:32+00:00"
         },
         {
-            "name": "twig/twig",
-            "version": "v1.35.3",
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
-                "reference": "b48680b6eb7d16b5025b9bfc4108d86f6b8af86f"
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b48680b6eb7d16b5025b9bfc4108d86f6b8af86f",
-                "reference": "b48680b6eb7d16b5025b9bfc4108d86f6b8af86f",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "require-dev": {
-                "psr/container": "^1.0",
-                "symfony/debug": "^2.7",
-                "symfony/phpunit-bridge": "^3.3"
+            "suggest": {
+                "ext-ctype": "For best performance"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.35-dev"
+                    "dev-master": "1.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-08-06T08:03:45+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.42.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "201baee843e0ffe8b0b956f336dd42b2a92fae4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/201baee843e0ffe8b0b956f336dd42b2a92fae4e",
+                "reference": "201baee843e0ffe8b0b956f336dd42b2a92fae4e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "^3.4|^4.2",
+                "symfony/phpunit-bridge": "^4.4@dev|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.42-dev"
                 }
             },
             "autoload": {
@@ -725,47 +711,48 @@
                     "role": "Lead Developer"
                 },
                 {
+                    "name": "Twig Team",
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
+                },
+                {
                     "name": "Armin Ronacher",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
-                },
-                {
-                    "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
-                    "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2018-03-20T04:25:58+00:00"
+            "time": "2019-08-24T12:51:03+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.4.0",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
-                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.3.9",
+                "symfony/polyfill-ctype": "^1.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8 || ^5.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -775,7 +762,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause-Attribution"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -790,13 +777,15 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01T10:05:43+00:00"
+            "time": "2019-01-29T11:11:52+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "delight-im/foundation-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
